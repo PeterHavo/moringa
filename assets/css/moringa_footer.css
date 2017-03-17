@@ -60,8 +60,7 @@
     padding-top: 30px;
     padding-bottom: 38px;
 }
-
-/*#myFooter .fa {
+#social-networks .fa {
     font-size: 15px;
     margin-right: 15px;
     margin-left: 20px;
@@ -76,7 +75,7 @@
     text-decoration: none;
     transition: color 0.2s;
 }
-*/
+
 #myFooter .fa-facebook:hover {
     color: #2b55ff;
 }
@@ -85,11 +84,11 @@
     color: #2b55ff;
 }
 
-#myFooter .fa-google-plus:hover {
+#myFooter .fa-youtube:hover {
     color: red;
 }
 
-#myFooter .fa-google-plus:focus {
+#myFooter .fa-youtube:focus {
     color: red;
 }
 
@@ -99,6 +98,12 @@
 
 #myFooter .fa-twitter:focus {
     color: #00aced;
+}
+#myFooter .fa-instagram:hover {
+    color: #FFA500;
+}
+#myFooter .fa-instagram:focus {
+    color: #FFA500;
 }
 
 @media screen and (max-width: 767px) {
@@ -198,6 +203,7 @@
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
+    text-align: center;
 }
 
 .modal-body {padding: 2px 16px;}
@@ -206,7 +212,7 @@
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
-    text-align: left;
+    text-align: center;
 }
 
 /* CSS used for positioning the footers at the bottom of the page. */
