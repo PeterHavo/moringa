@@ -110,7 +110,7 @@
     }
 }
 /* footer customization*/
-.footer_roll {
+.footer_roll  {
     display: none;
     padding-top:15px; 
     line-height: 15px;
@@ -131,6 +131,11 @@
     display: none;
     padding-top:15px; 
     line-height: 15px;
+}
+
+#myBtn {
+    color:#182c39;
+    margin-top: 20px;
 }
 /* modal customization */
 .modal {
@@ -201,6 +206,7 @@
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
+    text-align: left;
 }
 
 /* CSS used for positioning the footers at the bottom of the page. */
